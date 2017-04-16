@@ -74,12 +74,12 @@ session.clarifai_check_img_for(['dog', 'cat', 'cute', 'horse'], comment=True, co
 
 #"""Different tasks"""
 # you can put in as much tags as you want, likes 100 of each tag
-session.like_by_tags(['#test'], amount=100)
+# session.like_by_tags(['#test'], amount=100)
 
 #get's the tags from the description and likes 100 images of each tag
-session.like_from_image(url='www.instagram.com/image', amount=100)
+#session.like_from_image(url='www.instagram.com/image', amount=100)
 
-session.unfollow_users(amount=10) #unfollows 10 of the accounts your following -> instagram will only unfollow 10 before you'll be 'blocked
+#session.unfollow_users(amount=10) #unfollows 10 of the accounts your following -> instagram will only unfollow 10 before you'll be 'blocked
 #  for 10 minutes' (if you enter a higher number than 10 it will unfollow 10, then wait 10 minutes and will continue then)
 
 #"""Ending the script"""
