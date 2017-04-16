@@ -24,8 +24,8 @@ from .unfollow_util import dump_follow_restriction
 class InstaPy:
   """Class to be instantiated to use the script"""
   def __init__(self, username=None, password=None):
-    #self.display = Display(visible=0, size=(800, 600))
-    #self.display.start()
+    self.display = Display(visible=0, size=(800, 600))
+    self.display.start()
     chrome_options = Options()
     chrome_options.add_argument('--dns-prefetch-disable')
     chrome_options.add_argument('--no-sandbox')
